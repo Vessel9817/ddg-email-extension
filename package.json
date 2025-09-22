@@ -1,0 +1,12 @@
+{
+  "name": "ddg_email_extension",
+  "version": "1.0.0",
+  "private": "true",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.12"
+  }
+}

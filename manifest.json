@@ -1,0 +1,22 @@
+{
+    "name": "DuckDuckGo Email Protection",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "permissions": ["activeTab"],
+    "browser_action": {},
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://duckduckgo.com/email/",
+                "https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/email/"
+            ],
+            "js": ["content.js"],
+            "css": ["styles.css"],
+            "run_at": "document_start"
+        }
+    ]
+}
