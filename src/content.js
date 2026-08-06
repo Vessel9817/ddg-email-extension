@@ -1,7 +1,9 @@
-browser.tabs.getCurrent((tab) => {
+chrome.tabs.getCurrent((tab) => {
     if (tab?.id == null) return;
 
-    browser.scripting.insertCSS({
+    // DDG doesn't check if you have their extension installed,
+    // it just checks if a specific element is visible
+    chrome.scripting.insertCSS({
         target: {
             tabId: tab.id
         },

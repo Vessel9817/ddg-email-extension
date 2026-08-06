@@ -4,9 +4,11 @@
   "private": "true",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc --noEmit"
   },
   "devDependencies": {
-    "@types/chrome": "^0.2.5"
+    "@types/chrome": "^0.2.5",
+    "typescript": "^7.0.2"
   }
 }

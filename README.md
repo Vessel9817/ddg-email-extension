@@ -1,5 +1,7 @@
 # DuckDuckGo Email Extension
 
+[![CI][ci-badge]][ci-workflow]
+
 ## Motivation
 
 So you're interested in getting [DuckDuckGo proxy emails][get-email], as it:
@@ -23,4 +25,6 @@ all it actually does is change one CSS property before the check runs.
 - Load the `src` directory as an unpacked extension (Chromium)
   or temporary add-on (Firefox)
 
+[ci-workflow]: https://github.com/Vessel9817/ddg-email-extension/actions/workflows/ci.yml
+[ci-badge]: https://github.com/Vessel9817/ddg-email-extension/actions/workflows/ci.yml/badge.svg
 [get-email]: https://duckduckgo.com/email/
