@@ -22,7 +22,7 @@ all it actually does is change one CSS property before the check runs.
 
 - Clone this repository
 - Enable developer mode in your browser's extension management page
-- Load the `src` directory as an unpacked extension (Chromium)
+- Load the `src/<browser>` directory as an unpacked extension (Chromium)
   or temporary add-on (Firefox)
 
 [ci-workflow]: https://github.com/Vessel9817/ddg-email-extension/actions/workflows/ci.yml
