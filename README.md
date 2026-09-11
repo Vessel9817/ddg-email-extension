@@ -1,5 +1,6 @@
 # DuckDuckGo Email Extension
 
+[![MIT license][license-badge]](LICENSE)
 [![CI][ci-badge]][ci-workflow]
 
 ## Motivation
@@ -25,6 +26,7 @@ all it actually does is change one CSS property before the check runs.
 - Load the `src/<browser>` directory as an unpacked extension (Chromium)
   or temporary add-on (Firefox)
 
+[license-badge]: https://raw.githubusercontent.com/Vessel9817/ddg-email-extension/refs/heads/main/license.svg
 [ci-workflow]: https://github.com/Vessel9817/ddg-email-extension/actions/workflows/ci.yml
 [ci-badge]: https://github.com/Vessel9817/ddg-email-extension/actions/workflows/ci.yml/badge.svg
 [get-email]: https://duckduckgo.com/email/
