@@ -8,7 +8,7 @@
     "tsc": "tsc --noEmit"
   },
   "devDependencies": {
-    "@types/chrome": "^0.3.3",
+    "@types/chrome": "^0.3.4",
     "typescript": "^7.0.2"
   }
 }
